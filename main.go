@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/govnokode/Testers/unit"
+)
 
 func main() {
-	fmt.Println("Tesrerts")
+	t := unit.TestStr{"shuhrat"}
+	fmt.Println("Hello, ", t.Name)
 }
